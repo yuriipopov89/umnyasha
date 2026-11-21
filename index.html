@@ -7,9 +7,10 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Умняша">
-<title>Умняша — учимся играя</title>
+<meta name="description" content="Безопасная обучающая викторина для детей 4–6 лет">
+<title>Умняша — учимся играя · v0.5</title>
 <style>
-:root{color-scheme:light;--ink:#392d29;--muted:#89776d;--blue:#438fc4;--cream:#fff9f1;--line:#f0e3d7;--green:#eaf8ee;--amber:#fff4e5;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 15% 0,#ffefd9,transparent 32%),var(--cream);color:var(--ink);padding:env(safe-area-inset-top) 14px env(safe-area-inset-bottom)}button{font:inherit;cursor:pointer}.app{max-width:760px;margin:auto;padding:12px 0 28px}.top{display:flex;align-items:center;justify-content:space-between;margin:4px 2px 14px}.brand{display:flex;align-items:center;gap:10px}.brand-icon{font-size:29px}.brand strong{display:block;font-size:20px}.brand small{color:var(--muted)}.stars{background:white;border:1px solid var(--line);border-radius:20px;padding:9px 13px;font-weight:800}.hero{display:flex;align-items:center;gap:16px;padding:17px;background:linear-gradient(120deg,#ffe6c4,#fff0df);border-radius:25px;min-height:188px}.fox-wrap{flex:0 0 130px;height:145px;display:grid;place-items:center;position:relative}.fox{position:relative;width:112px;height:126px;animation:bob 2.8s ease-in-out infinite}.ear{position:absolute;top:2px;width:42px;height:52px;background:#ee823c;clip-path:polygon(50% 0,100% 100%,0 100%)}.ear.l{left:10px;transform:rotate(-15deg)}.ear.r{right:10px;transform:rotate(15deg)}.face{position:absolute;top:18px;left:8px;width:96px;height:91px;background:#f28b43;border-radius:48% 48% 46% 46%;box-shadow:inset -7px -5px #d97535}.eye{position:absolute;top:31px;width:9px;height:13px;border-radius:50%;background:#352823}.eye.l{left:25px}.eye.r{right:25px}.muzzle{position:absolute;left:27px;top:51px;width:42px;height:26px;border-radius:50%;background:#fff1df}.nose{position:absolute;left:44px;top:51px;width:10px;height:8px;border-radius:50%;background:#50332c}.smile{position:absolute;left:39px;top:63px;width:20px;height:8px;border-bottom:2px solid #744137;border-radius:0 0 50% 50%}.cheek{position:absolute;top:56px;width:15px;height:9px;border-radius:50%;background:#ffaaa0}.cheek.l{left:8px}.cheek.r{right:8px}.scarf{position:absolute;bottom:0;left:25px;width:66px;height:20px;background:#4b9acb;border-radius:8px 8px 15px 15px;box-shadow:inset 0 -4px #347fb5}.spark{position:absolute;color:#e4a52c;font-size:22px}.spark.one{right:2px;top:2px}.spark.two{left:0;bottom:9px}.hero-copy{flex:1}.eyebrow{font-size:10px;letter-spacing:1px;font-weight:850;color:#a56c3e}.hero h1{font-size:clamp(21px,4vw,28px);margin:7px 0}.hero p{line-height:1.42;color:#705c51;margin:0 0 11px}.pill,.secondary,.primary,.topic,.parent-btn{border:0;border-radius:14px;padding:10px 13px;font-weight:750}.pill{background:white;color:#84542e;box-shadow:0 3px #f0d7bb}.topics{display:flex;gap:8px;overflow-x:auto;padding:13px 0 11px;scrollbar-width:none}.topic{white-space:nowrap;background:white;border:1px solid var(--line);color:#705b50;font-size:13px}.topic.active{background:var(--blue);border-color:var(--blue);color:white}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:17px;box-shadow:0 6px 20px #6e4c280d}.meta{display:flex;justify-content:space-between;color:#a17b61;font-size:11px;font-weight:850;letter-spacing:.7px}.quiz h2{font-size:clamp(21px,4vw,27px);margin:13px 0 5px}.sub{margin:0 0 13px;color:var(--muted)}.answers{display:grid;grid-template-columns:1fr;gap:9px}.answer{text-align:left;width:100%;padding:14px;border:1.5px solid #eee2d7;background:#fffdfb;border-radius:15px;color:#493831;font-weight:750}.answer.correct{background:var(--green);border-color:#62b47f}.answer.wrong{background:var(--amber);border-color:#e6a04b}.answer:disabled{opacity:1}.feedback{margin-top:12px;padding:13px;border-radius:14px;background:var(--green);line-height:1.45}.feedback.wrong{background:var(--amber)}.actions{display:flex;gap:9px;margin-top:13px}.secondary{background:#fff1d8;color:#88591f}.primary{background:var(--blue);color:white;flex:1}.primary:disabled{opacity:.45}.voice{display:flex;align-items:center;gap:12px;margin-top:12px}.voice-icon{font-size:27px}.voice-copy{flex:1}.voice-copy b{display:block}.voice-copy p{font-size:13px;color:var(--muted);margin:4px 0 0}.mic{width:48px;height:48px;border:0;border-radius:50%;background:#e8f3fc;font-size:21px}.mic.listening{background:#ffe1df;animation:pulse 1s infinite}.bottom{display:flex;justify-content:center;padding:14px 0 0}.parent-btn{background:transparent;color:#8c7b70;font-size:12px;text-decoration:underline}.note{text-align:center;color:#a38f82;font-size:11px;margin:9px 0 0}.panel{display:none;margin-top:12px}.panel.open{display:block}.panel h3{margin:0 0 10px}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.stat{background:#fff8ef;border-radius:14px;padding:12px}.stat b{display:block;font-size:22px}.stat span{font-size:12px;color:var(--muted)}.danger{background:#fff0ef;color:#a33d36;margin-top:12px}.small{font-size:12px;color:var(--muted);line-height:1.5}.toast{margin-top:10px;color:#487b58;font-size:13px}@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-6px) rotate(2deg)}}@keyframes pulse{50%{box-shadow:0 0 0 8px #ffb9b955}}@media(min-width:560px){.hero{padding:22px 28px}.fox-wrap{flex-basis:170px;transform:scale(1.08)}.answers{grid-template-columns:1fr 1fr}}@media(max-width:390px){.hero{gap:7px;padding:12px}.fox-wrap{flex-basis:105px;transform:scale(.86);margin-left:-8px}.hero h1{font-size:21px}.pill{font-size:12px}}
+:root{color-scheme:light;--ink:#392d29;--muted:#89776d;--blue:#438fc4;--cream:#fff9f1;--line:#f0e3d7;--green:#eaf8ee;--amber:#fff4e5;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 15% 0,#ffefd9,transparent 32%),var(--cream);color:var(--ink);padding:env(safe-area-inset-top) 14px env(safe-area-inset-bottom)}button{font:inherit;cursor:pointer}.app{max-width:760px;margin:auto;padding:12px 0 28px}.top{display:flex;align-items:center;justify-content:space-between;margin:4px 2px 14px}.brand{display:flex;align-items:center;gap:10px}.brand-icon{font-size:29px}.brand strong{display:block;font-size:20px}.brand small{color:var(--muted)}.stars{background:white;border:1px solid var(--line);border-radius:20px;padding:9px 13px;font-weight:800}.hero{display:flex;align-items:center;gap:16px;padding:17px;background:linear-gradient(120deg,#ffe6c4,#fff0df);border-radius:25px;min-height:188px}.fox-wrap{flex:0 0 130px;height:145px;display:grid;place-items:center;position:relative}.fox{position:relative;width:112px;height:126px;animation:bob 2.8s ease-in-out infinite}.ear{position:absolute;top:2px;width:42px;height:52px;background:#ee823c;clip-path:polygon(50% 0,100% 100%,0 100%)}.ear.l{left:10px;transform:rotate(-15deg)}.ear.r{right:10px;transform:rotate(15deg)}.face{position:absolute;top:18px;left:8px;width:96px;height:91px;background:#f28b43;border-radius:48% 48% 46% 46%;box-shadow:inset -7px -5px #d97535}.eye{position:absolute;top:31px;width:9px;height:13px;border-radius:50%;background:#352823}.eye.l{left:25px}.eye.r{right:25px}.muzzle{position:absolute;left:27px;top:51px;width:42px;height:26px;border-radius:50%;background:#fff1df}.nose{position:absolute;left:44px;top:51px;width:10px;height:8px;border-radius:50%;background:#50332c}.smile{position:absolute;left:39px;top:63px;width:20px;height:8px;border-bottom:2px solid #744137;border-radius:0 0 50% 50%}.cheek{position:absolute;top:56px;width:15px;height:9px;border-radius:50%;background:#ffaaa0}.cheek.l{left:8px}.cheek.r{right:8px}.scarf{position:absolute;bottom:0;left:25px;width:66px;height:20px;background:#4b9acb;border-radius:8px 8px 15px 15px;box-shadow:inset 0 -4px #347fb5}.spark{position:absolute;color:#e4a52c;font-size:22px}.spark.one{right:2px;top:2px}.spark.two{left:0;bottom:9px}.hero-copy{flex:1}.eyebrow{font-size:10px;letter-spacing:1px;font-weight:850;color:#a56c3e}.hero h1{font-size:clamp(21px,4vw,28px);margin:7px 0}.hero p{line-height:1.42;color:#705c51;margin:0 0 11px}.pill,.secondary,.primary,.topic,.parent-btn{border:0;border-radius:14px;padding:10px 13px;font-weight:750}.pill{background:white;color:#84542e;box-shadow:0 3px #f0d7bb}.topics{display:flex;gap:8px;overflow-x:auto;padding:13px 0 11px;scrollbar-width:none}.topic{white-space:nowrap;background:white;border:1px solid var(--line);color:#705b50;font-size:13px}.topic.active{background:var(--blue);border-color:var(--blue);color:white}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:17px;box-shadow:0 6px 20px #6e4c280d}.meta{display:flex;justify-content:space-between;color:#a17b61;font-size:11px;font-weight:850;letter-spacing:.7px}.quiz h2{font-size:clamp(21px,4vw,27px);margin:13px 0 5px}.sub{margin:0 0 13px;color:var(--muted)}.answers{display:grid;grid-template-columns:1fr;gap:9px}.answer{text-align:left;width:100%;padding:14px;border:1.5px solid #eee2d7;background:#fffdfb;border-radius:15px;color:#493831;font-weight:750}.answer.correct{background:var(--green);border-color:#62b47f}.answer.wrong{background:var(--amber);border-color:#e6a04b}.answer:disabled{opacity:1}.feedback{margin-top:12px;padding:13px;border-radius:14px;background:var(--green);line-height:1.45}.feedback.wrong{background:var(--amber)}.actions{display:flex;gap:9px;margin-top:13px}.secondary{background:#fff1d8;color:#88591f}.primary{background:var(--blue);color:white;flex:1}.primary:disabled{opacity:.45}.voice{display:flex;align-items:center;gap:12px;margin-top:12px}.voice-icon{font-size:27px}.voice-copy{flex:1}.voice-copy b{display:block}.voice-copy p{font-size:13px;color:var(--muted);margin:4px 0 0}.mic{width:48px;height:48px;border:0;border-radius:50%;background:#e8f3fc;font-size:21px}.mic.listening{background:#ffe1df;animation:pulse 1s infinite}.bottom{display:flex;justify-content:center;padding:14px 0 0}.parent-btn{background:transparent;color:#8c7b70;font-size:12px;text-decoration:underline}.note{text-align:center;color:#a38f82;font-size:11px;margin:9px 0 0}.panel{display:none;margin-top:12px}.panel.open{display:block}.panel h3{margin:0 0 10px}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.stat{background:#fff8ef;border-radius:14px;padding:12px}.stat b{display:block;font-size:22px}.stat span{font-size:12px;color:var(--muted)}.danger{background:#fff0ef;color:#a33d36;margin-top:12px}.small{font-size:12px;color:var(--muted);line-height:1.5}.toast{margin-top:10px;color:#487b58;font-size:13px}.toggle-row{display:flex;align-items:flex-start;gap:10px;padding:12px;background:#f4f8fc;border-radius:14px;line-height:1.4}.toggle-row input{width:22px;height:22px;flex:0 0 22px;accent-color:#438fc4}.privacy{font-size:11px;color:#8b786d;line-height:1.45;margin:8px 0 0}.status-warn{color:#9a5b20}.status-ok{color:#487b58}.mic:disabled{opacity:.45;cursor:not-allowed}@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-6px) rotate(2deg)}}@keyframes pulse{50%{box-shadow:0 0 0 8px #ffb9b955}}@media(min-width:560px){.hero{padding:22px 28px}.fox-wrap{flex-basis:170px;transform:scale(1.08)}.answers{grid-template-columns:1fr 1fr}}@media(max-width:390px){.hero{gap:7px;padding:12px}.fox-wrap{flex-basis:105px;transform:scale(.86);margin-left:-8px}.hero h1{font-size:21px}.pill{font-size:12px}}
 </style>
 </head>
 <body>
@@ -18,14 +19,14 @@
 <section class="hero"><div class="fox-wrap"><span class="spark one">✦</span><span class="spark two">✧</span><div class="fox" aria-label="Лисёнок Умняша"><div class="ear l"></div><div class="ear r"></div><div class="face"><i class="eye l"></i><i class="eye r"></i><i class="cheek l"></i><i class="cheek r"></i><i class="muzzle"></i><i class="nose"></i><i class="smile"></i></div><div class="scarf"></div></div></div><div class="hero-copy"><div class="eyebrow">ТВОЙ ДРУГ-ИССЛЕДОВАТЕЛЬ</div><h1>Привет, мой друг!</h1><p id="say">Я Умняша. Давай узнавать удивительные вещи вместе!</p><button class="pill" id="greet">🔊 Послушать Умняшу</button></div></section>
 <nav class="topics" aria-label="Темы"><button class="topic active" data-topic="Все темы">🌈 Все темы</button><button class="topic" data-topic="Животные">🐾 Животные</button><button class="topic" data-topic="Окружающий мир">🌱 Природа</button><button class="topic" data-topic="Наука и космос">🚀 Космос</button></nav>
 <section class="card quiz"><div class="meta"><span id="topicLabel">ЖИВОТНЫЕ</span><span id="counter">Вопрос 1</span></div><h2 id="question">Как рыба дышит под водой?</h2><p class="sub">Выбери один ответ:</p><div class="answers" id="answers"></div><div class="feedback" id="feedback" hidden aria-live="polite"></div><div class="actions"><button class="secondary" id="hint">💡 Подсказка</button><button class="primary" id="next" disabled>Следующий вопрос →</button></div></section>
-<section class="card voice"><div class="voice-icon">🎙️</div><div class="voice-copy"><b>Поговори с Умняшей</b><p id="voiceStatus">Нажми на микрофон и назови ответ.</p></div><button class="mic" id="mic" aria-label="Голосовой ввод">🎤</button></section>
-<div class="bottom"><button class="parent-btn" id="parent">🔒 Для родителей</button></div>
-<section class="card panel" id="parentPanel"><h3>Родительский раздел</h3><div class="stats"><div class="stat"><b id="statStars">0</b><span>звёзд заработано</span></div><div class="stat"><b id="statCorrect">0</b><span>правильных ответов</span></div><div class="stat"><b id="statDone">0</b><span>всего ответов</span></div><div class="stat"><b id="statRate">—</b><span>точность ответов</span></div></div><p class="small">Прогресс хранится только в памяти браузера на этом устройстве. Данные не отправляются на сервер. На другом устройстве прогресс будет отдельным.</p><button class="secondary danger" id="reset">Сбросить прогресс на этом устройстве</button><p class="small">Защита раздела — простая детская проверка, а не надёжная система родительской аутентификации.</p><div class="toast" id="parentMsg" role="status"></div></section>
-<p class="note">Для детей 4–6 лет · Без рекламы · Без регистрации</p>
+<section class="card voice"><div class="voice-icon">🎙️</div><div class="voice-copy"><b>Поговори с Умняшей</b><p id="voiceStatus">Голосовой ввод сначала должен разрешить взрослый.</p></div><button class="mic" id="mic" aria-label="Голосовой ввод">🎤</button></section><p class="privacy">Микрофон включается только после нажатия и разрешения взрослого. Распознавание может обрабатываться средствами браузера; не произноси имя, адрес или телефон.</p>
+<div class="bottom"><button class="parent-btn" id="parent">🔒 Для родителей</button></div><p class="toast" id="parentAccessStatus" role="status" aria-live="polite"></p>
+<section class="card panel" id="parentPanel"><h3>Родительский раздел</h3><div class="stats"><div class="stat"><b id="statStars">0</b><span>звёзд заработано</span></div><div class="stat"><b id="statCorrect">0</b><span>правильных ответов</span></div><div class="stat"><b id="statDone">0</b><span>всего ответов</span></div><div class="stat"><b id="statRate">—</b><span>точность ответов</span></div></div><h4>Разрешения</h4><label class="toggle-row"><input type="checkbox" id="voiceConsent"><span><b>Разрешить голосовой ввод</b><br><span class="small">Ребёнок сможет нажать на микрофон и произнести вариант ответа. Доступность зависит от Safari и версии iOS.</span></span></label><p class="small" id="voiceHelp"></p><h4>Данные на этом устройстве</h4><p class="small">Счёт и настройки хранятся локально в браузере. Между iPhone и iPad они не синхронизируются. Если хранилище браузера недоступно, прогресс может не сохраниться после закрытия страницы.</p><div class="small" id="storageStatus" role="status"></div><button class="secondary danger" id="reset">Удалить прогресс и разрешение микрофона</button><p class="small">Проверка при входе — только барьер от случайного открытия, не надёжная защита PIN-кодом. Не храните здесь секретную информацию.</p><div class="toast" id="parentMsg" role="status"></div></section>
+<p class="note">Для детей 4–6 лет · v0.5 · Без рекламы и регистрации</p>
 </main>
 <script>
 'use strict';
-const QUESTIONS=[
+const QUESTIONS = [
 {t:'Животные',q:'Как рыба дышит под водой?',a:['Лёгкими','Жабрами','Носом'],c:1,h:'Это особые органы по бокам головы рыбы.',e:'У рыбы есть жабры. Вода проходит через них, и рыба получает из воды кислород.'},
 {t:'Животные',q:'Какое животное называют кораблём пустыни?',a:['Верблюда','Зайца','Медведя'],c:0,h:'У него есть горбы, а широкие ступни помогают ходить по песку.',e:'Верблюд хорошо приспособлен к жизни в жаркой пустыне.'},
 {t:'Животные',q:'Чем покрыто тело птиц?',a:['Шерстью','Чешуёй','Перьями'],c:2,h:'Они помогают птицам летать и сохранять тепло.',e:'Тело птиц покрыто перьями. У разных птиц они бывают очень разными.'},
@@ -37,25 +38,219 @@ const QUESTIONS=[
 {t:'Наука и космос',q:'Что такое Солнце?',a:['Планета','Звезда','Спутник'],c:1,h:'Оно светит нам днём и согревает Землю.',e:'Солнце — звезда. Оно даёт Земле свет и тепло.'},
 {t:'Наука и космос',q:'На какой планете мы живём?',a:['Марс','Земля','Юпитер'],c:1,h:'На ней есть океаны, леса и наш дом.',e:'Наш дом в космосе — планета Земля.'},
 {t:'Наука и космос',q:'Что светит ночью и меняет свою форму?',a:['Луна','Облако','Самолёт'],c:0,h:'Она вращается вокруг Земли.',e:'Луна — естественный спутник Земли. Мы видим освещённую Солнцем часть Луны.'},
-{t:'Наука и космос',q:'Кто изучает космос и летает на космических кораблях?',a:['Водолаз','Космонавт','Пекарь'],c:1,h:'Он надевает специальный скафандр.',e:'Космонавты исследуют космос и работают на космических станциях.'}
+{t:'Наука и космос',q:'Кто изучает космос и летает на космических кораблях?',a:['Водолаз','Космонавт','Пекарь'],c:1,h:'Он надевает специальный скафандр.',e:'Космонавты исследуют космос и работают на космических станциях.'},
+{t:'Животные',q:'Какое животное зимой может спать очень долго в берлоге?',a:['Медведь','Белка','Лошадь'],c:0,h:'Это большое лесное животное, которое любит мёд.',e:'Некоторые медведи проводят холодную часть года в берлоге и мало двигаются.'},
+{t:'Животные',q:'Сколько ног у паука?',a:['Шесть','Восемь','Десять'],c:1,h:'Посчитай: четыре с одной стороны и четыре с другой.',e:'У пауков восемь ног. Насекомые, например муравьи, имеют шесть ног.'},
+{t:'Животные',q:'Какое животное носит свой домик на спине?',a:['Черепаха','Лиса','Лягушка'],c:0,h:'Её панцирь помогает защищать тело.',e:'У черепахи есть крепкий панцирь, который защищает её тело.'},
+{t:'Животные',q:'Как называется дом пчёл?',a:['Нора','Улей','Гнездо белки'],c:1,h:'Там пчёлы живут большой дружной семьёй.',e:'Пчёлы живут в ульях. Внутри они строят восковые соты.'},
+{t:'Животные',q:'Какое животное умеет менять цвет кожи, чтобы прятаться?',a:['Хамелеон','Ёж','Кролик'],c:0,h:'У него длинный язык и глаза, которые могут двигаться по-разному.',e:'Некоторые хамелеоны меняют окраску. Это помогает им общаться и приспосабливаться к условиям.'},
+{t:'Животные',q:'Чем питается большая панда?',a:['Бамбуком','Рыбой','Камнями'],c:0,h:'Это высокое растение с крепкими стеблями.',e:'Большую часть еды панды составляет бамбук.'},
+{t:'Окружающий мир',q:'Что помогает нам слышать звуки?',a:['Уши','Локти','Колени'],c:0,h:'Они находятся по обеим сторонам головы.',e:'Уши помогают нам слышать звуки вокруг.'},
+{t:'Окружающий мир',q:'Во что превращается вода, если её очень сильно охладить?',a:['В лёд','В песок','В дым'],c:0,h:'Зимой лужи иногда становятся твёрдыми и скользкими.',e:'При замерзании вода превращается в лёд.'},
+{t:'Окружающий мир',q:'Какая часть растения обычно находится под землёй?',a:['Корень','Цветок','Плод'],c:0,h:'Она помогает растению получать воду из почвы.',e:'Корни удерживают растение в земле и поглощают воду и питательные вещества.'},
+{t:'Окружающий мир',q:'Что нужно надеть на голову в солнечный жаркий день?',a:['Панаму','Шарф на глаза','Варежки'],c:0,h:'Она защищает голову от яркого солнца.',e:'Панама или кепка помогают защитить голову от солнца. В жару также важно пить воду и быть рядом со взрослым.'},
+{t:'Окружающий мир',q:'Как называется вода, которая падает из облаков?',a:['Дождь','Песок','Листья'],c:0,h:'После него на земле могут появиться лужи.',e:'Дождь — это капли воды, которые падают из облаков.'},
+{t:'Окружающий мир',q:'Что из этого можно отправить в контейнер для бумаги?',a:['Чистую картонную коробку','Банановую кожуру','Стеклянную чашку'],c:0,h:'Это сделано из материала, из которого делают книги и тетради.',e:'Чистую бумагу и картон часто собирают отдельно для переработки. Правила зависят от места, где ты живёшь.'},
+{t:'Наука и космос',q:'Почему мы видим предметы днём?',a:['На них попадает свет','Они светятся сами','Их толкает ветер'],c:0,h:'Подумай, что делает Солнце.',e:'Свет от Солнца отражается от предметов и попадает к нам в глаза.'},
+{t:'Наука и космос',q:'Что находится в центре нашей Солнечной системы?',a:['Солнце','Луна','Земля'],c:0,h:'Вокруг него движутся планеты.',e:'В центре Солнечной системы находится Солнце, а планеты движутся вокруг него.'},
+{t:'Наука и космос',q:'Как называется аппарат, который исследует далёкие планеты?',a:['Космический зонд','Самокат','Подводная лодка'],c:0,h:'Его отправляют в космос без космонавта на борту.',e:'Космический зонд — это аппарат, который собирает сведения о космосе и планетах.'},
+{t:'Наука и космос',q:'Что притягивает предметы к земле?',a:['Сила тяжести','Музыка','Свет фонарика'],c:0,h:'Благодаря этому мяч падает вниз, если его отпустить.',e:'Сила тяжести притягивает предметы друг к другу. Земля притягивает нас и вещи вокруг.'},
+{t:'Наука и космос',q:'Что получится, если смешать синюю и жёлтую краски?',a:['Зелёный цвет','Красный цвет','Чёрный цвет'],c:0,h:'Вспомни цвет листьев на деревьях.',e:'Если смешать синюю и жёлтую краски, обычно получится зелёный цвет.'},
+{t:'Наука и космос',q:'Как называется прибор, в который смотрят, чтобы увидеть далёкие звёзды?',a:['Телескоп','Термометр','Компас'],c:0,h:'Астрономы используют его, чтобы рассматривать космос.',e:'Телескоп собирает свет и помогает наблюдать далёкие небесные объекты.'}
 ];
-const $=id=>document.getElementById(id);let topic='Все темы',pool=[],pos=0,chosen=null;
-const read=(k,d=0)=>{try{return JSON.parse(localStorage.getItem('umnyasha_'+k))??d}catch{return d}};
-let stats={stars:read('stars'),correct:read('correct'),done:read('done')};
-function save(){for(const k in stats)localStorage.setItem('umnyasha_'+k,JSON.stringify(stats[k]));$('stars').textContent=stats.stars;}
-function talk(s){$('say').textContent=s;if(!('speechSynthesis'in window))return;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(s);u.lang='ru-RU';u.rate=.88;window.speechSynthesis.speak(u)}
-function render(){const q=pool[pos];chosen=null;$('topicLabel').textContent=q.t.toUpperCase();$('counter').textContent=`Вопрос ${pos+1} из ${pool.length}`;$('question').textContent=q.q;$('feedback').hidden=true;$('next').disabled=true;$('answers').replaceChildren();q.a.forEach((v,i)=>{const b=document.createElement('button');b.className='answer';b.textContent=v;b.addEventListener('click',()=>answer(i));$('answers').appendChild(b)});}
-function load(){pool=topic==='Все темы'?QUESTIONS:QUESTIONS.filter(q=>q.t===topic);pos=0;render()}
-function answer(i){if(chosen!==null)return;chosen=i;const q=pool[pos],ok=i===q.c;[...$('answers').children].forEach((b,n)=>{b.disabled=true;if(n===q.c)b.classList.add('correct');if(n===i&&!ok)b.classList.add('wrong')});stats.done++;if(ok){stats.correct++;stats.stars++;$('feedback').className='feedback';$('feedback').textContent='🌟 Ура! Правильно! '+q.e;talk('Как здорово! Правильно! '+q.e)}else{$('feedback').className='feedback wrong';$('feedback').textContent='💛 Хорошая попытка! Ошибаться — это нормально. '+q.h;talk('Хорошая попытка! Давай попробуем ещё. '+q.h)}save();$('feedback').hidden=false;$('next').disabled=false;}
-$('hint').addEventListener('click',()=>{const q=pool[pos];$('feedback').className='feedback wrong';$('feedback').textContent='💡 Подсказка: '+q.h;$('feedback').hidden=false;talk('Подсказка. '+q.h)});
-$('next').addEventListener('click',()=>{pos=(pos+1)%pool.length;render()});$('greet').addEventListener('click',()=>talk('Привет, мой друг! Я Умняша. Давай узнавать удивительные вещи вместе!'));
-document.querySelectorAll('.topic').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.topic').forEach(x=>x.classList.remove('active'));b.classList.add('active');topic=b.dataset.topic;load()}));
-const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
-$('mic').addEventListener('click',()=>{if(!Recognition){$('voiceStatus').textContent='Распознавание речи здесь недоступно. Можно использовать диктовку клавиатуры iPhone/iPad или кнопки ответов.';return}const r=new Recognition();r.lang='ru-RU';r.interimResults=false;r.maxAlternatives=1;$('mic').classList.add('listening');$('voiceStatus').textContent='Я слушаю…';r.onresult=e=>{const said=e.results[0][0].transcript.toLocaleLowerCase('ru-RU');$('voiceStatus').textContent='Ты сказал: '+e.results[0][0].transcript;const n=pool[pos].a.findIndex(a=>said.includes(a.toLocaleLowerCase('ru-RU')));if(n>=0)answer(n);else talk('Я тебя услышал. Попробуй нажать на подходящий ответ.')};r.onerror=()=>{$('voiceStatus').textContent='Не удалось распознать речь. Попробуй ещё раз или выбери ответ.'};r.onend=()=>$('mic').classList.remove('listening');try{r.start()}catch{$('voiceStatus').textContent='Не удалось включить микрофон. Проверь разрешение Safari.'}});
-function updateParent(){ $('statStars').textContent=stats.stars;$('statCorrect').textContent=stats.correct;$('statDone').textContent=stats.done;$('statRate').textContent=stats.done?Math.round(stats.correct/stats.done*100)+'%':'—';}
-$('parent').addEventListener('click',()=>{const a=prompt('Проверка для взрослого: сколько будет 5 + 3?');if(a==='8'){$('parentPanel').classList.toggle('open');updateParent();$('parentMsg').textContent='Раздел открыт.'}else{$('parentMsg').textContent='Проверка не пройдена. Попробуй ещё раз вместе со взрослым.'}});
-$('reset').addEventListener('click',()=>{if(confirm('Удалить звёзды и статистику на этом устройстве?')){stats={stars:0,correct:0,done:0};save();updateParent();$('parentMsg').textContent='Прогресс сброшен.'}});
-save();load();
+const $ = id => document.getElementById(id);
+const STORAGE_KEY = 'umnyasha_progress_v1';
+const DEFAULT_PROGRESS = {stars:0, correct:0, done:0, voiceEnabled:false};
+let storageAvailable = true;
+function validCount(value) { return Number.isSafeInteger(value) && value >= 0; }
+function loadProgress() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return {...DEFAULT_PROGRESS};
+    const value = JSON.parse(raw);
+    if (!value || typeof value !== 'object') return {...DEFAULT_PROGRESS};
+    return {
+      stars: validCount(value.stars) ? value.stars : 0,
+      correct: validCount(value.correct) ? value.correct : 0,
+      done: validCount(value.done) ? value.done : 0,
+      voiceEnabled: value.voiceEnabled === true
+    };
+  } catch (_) {
+    storageAvailable = false;
+    return {...DEFAULT_PROGRESS};
+  }
+}
+let progress = loadProgress();
+let topic = 'Все темы', pool = [], pos = 0, chosen = null;
+const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+function saveProgress() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    storageAvailable = true;
+  } catch (_) {
+    storageAvailable = false;
+  }
+  updateStorageStatus();
+}
+function updateStorageStatus() {
+  const el = $('storageStatus');
+  if (!el) return;
+  el.textContent = storageAvailable
+    ? 'Хранилище доступно. Данные остаются в этом браузере.'
+    : 'Внимание: браузер не разрешил сохранить данные. После закрытия страницы прогресс может исчезнуть.';
+  el.className = storageAvailable ? 'small status-ok' : 'small status-warn';
+}
+function speak(message) {
+  $('say').textContent = message;
+  if (!('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(message);
+  utterance.lang = 'ru-RU';
+  utterance.rate = 0.88;
+  window.speechSynthesis.speak(utterance);
+}
+function renderQuestion() {
+  const question = pool[pos];
+  chosen = null;
+  $('topicLabel').textContent = question.t.toUpperCase();
+  $('counter').textContent = `Вопрос ${pos + 1} из ${pool.length}`;
+  $('question').textContent = question.q;
+  $('feedback').hidden = true;
+  $('next').disabled = true;
+  $('answers').replaceChildren();
+  question.a.forEach((answerText, index) => {
+    const button = document.createElement('button');
+    button.className = 'answer';
+    button.textContent = answerText;
+    button.addEventListener('click', () => answerQuestion(index));
+    $('answers').appendChild(button);
+  });
+}
+function loadQuestions() {
+  pool = topic === 'Все темы' ? QUESTIONS : QUESTIONS.filter(q => q.t === topic);
+  pos = 0;
+  renderQuestion();
+}
+function answerQuestion(index) {
+  if (chosen !== null) return;
+  chosen = index;
+  const question = pool[pos];
+  const isCorrect = index === question.c;
+  [...$('answers').children].forEach((button, i) => {
+    button.disabled = true;
+    if (i === question.c) button.classList.add('correct');
+    if (i === index && !isCorrect) button.classList.add('wrong');
+  });
+  progress.done += 1;
+  if (isCorrect) {
+    progress.correct += 1;
+    progress.stars += 1;
+    $('feedback').className = 'feedback';
+    $('feedback').textContent = '🌟 Ура! Правильно! ' + question.e;
+    speak('Как здорово! Правильно! ' + question.e);
+  } else {
+    $('feedback').className = 'feedback wrong';
+    $('feedback').textContent = '💛 Хорошая попытка! Ошибаться — это нормально. ' + question.h;
+    speak('Хорошая попытка! Давай попробуем ещё. ' + question.h);
+  }
+  $('stars').textContent = progress.stars;
+  $('feedback').hidden = false;
+  $('next').disabled = false;
+  saveProgress();
+}
+$('hint').addEventListener('click', () => {
+  const question = pool[pos];
+  $('feedback').className = 'feedback wrong';
+  $('feedback').textContent = '💡 Подсказка: ' + question.h;
+  $('feedback').hidden = false;
+  speak('Подсказка. ' + question.h);
+});
+$('next').addEventListener('click', () => { pos = (pos + 1) % pool.length; renderQuestion(); });
+$('greet').addEventListener('click', () => speak('Привет, мой друг! Я Умняша. Давай узнавать удивительные вещи вместе!'));
+document.querySelectorAll('.topic').forEach(button => button.addEventListener('click', () => {
+  document.querySelectorAll('.topic').forEach(item => item.classList.remove('active'));
+  button.classList.add('active');
+  topic = button.dataset.topic;
+  loadQuestions();
+}));
+function updateParentStats() {
+  $('statStars').textContent = progress.stars;
+  $('statCorrect').textContent = progress.correct;
+  $('statDone').textContent = progress.done;
+  $('statRate').textContent = progress.done ? Math.round(progress.correct / progress.done * 100) + '%' : '—';
+  $('voiceConsent').checked = progress.voiceEnabled;
+  $('voiceHelp').textContent = Recognition
+    ? 'Голосовой ввод доступен в этом браузере, если Safari предоставит доступ к микрофону.'
+    : 'В этом браузере не обнаружена поддержка распознавания речи. Можно отвечать кнопками.';
+  updateStorageStatus();
+}
+function openParentSection() {
+  if ($('parentPanel').classList.contains('open')) {
+    $('parentPanel').classList.remove('open');
+    $('parentMsg').textContent = '';
+    $('parentAccessStatus').textContent = '';
+    return;
+  }
+  const challenges = [[17,26],[18,23],[16,29],[24,17],[31,12],[28,15]];
+  const [a,b] = challenges[Math.floor(Math.random() * challenges.length)];
+  const response = window.prompt(`Только для взрослых. Решите пример: ${a} + ${b} = ?`);
+  if (response === String(a + b)) {
+    $('parentPanel').classList.add('open');
+    $('parentMsg').textContent = 'Раздел открыт.';
+    $('parentAccessStatus').textContent = '';
+    updateParentStats();
+  } else if (response !== null) {
+    $('parentAccessStatus').textContent = 'Проверка не пройдена. Попроси взрослого попробовать ещё раз.';
+  }
+}
+$('parent').addEventListener('click', openParentSection);
+$('voiceConsent').addEventListener('change', event => {
+  progress.voiceEnabled = event.target.checked;
+  saveProgress();
+  $('voiceStatus').textContent = progress.voiceEnabled
+    ? 'Взрослый разрешил голосовой ввод. Нажми на микрофон.'
+    : 'Голосовой ввод выключен. Попроси взрослого разрешить его в родительском разделе.';
+});
+$('mic').addEventListener('click', () => {
+  if (!progress.voiceEnabled) {
+    $('voiceStatus').textContent = 'Сначала попроси взрослого разрешить голосовой ввод в родительском разделе.';
+    return;
+  }
+  if (!Recognition) {
+    $('voiceStatus').textContent = 'Распознавание речи не поддерживается этим браузером. Используй кнопки ответов.';
+    return;
+  }
+  const recognition = new Recognition();
+  recognition.lang = 'ru-RU';
+  recognition.interimResults = false;
+  recognition.maxAlternatives = 1;
+  $('mic').classList.add('listening');
+  $('voiceStatus').textContent = 'Я слушаю…';
+  recognition.onresult = event => {
+    const transcript = event.results[0][0].transcript;
+    $('voiceStatus').textContent = 'Ты сказал: ' + transcript;
+    const normalized = transcript.toLocaleLowerCase('ru-RU');
+    const answerIndex = pool[pos].a.findIndex(item => normalized.includes(item.toLocaleLowerCase('ru-RU')));
+    if (answerIndex >= 0) answerQuestion(answerIndex);
+    else speak('Я тебя услышал. Попробуй нажать на подходящий ответ.');
+  };
+  recognition.onerror = () => { $('voiceStatus').textContent = 'Не удалось распознать речь. Попробуй ещё раз или выбери ответ.'; };
+  recognition.onend = () => $('mic').classList.remove('listening');
+  try { recognition.start(); }
+  catch (_) { $('mic').classList.remove('listening'); $('voiceStatus').textContent = 'Не удалось включить микрофон. Проверь разрешение Safari.'; }
+});
+$('reset').addEventListener('click', () => {
+  if (!window.confirm('Удалить все звёзды, статистику и разрешение голосового ввода на этом устройстве?')) return;
+  progress = {...DEFAULT_PROGRESS};
+  saveProgress();
+  $('stars').textContent = '0';
+  updateParentStats();
+  $('voiceStatus').textContent = 'Голосовой ввод выключен. Попроси взрослого разрешить его в родительском разделе.';
+  $('parentMsg').textContent = 'Локальные данные Умняши удалены.';
+});
+$('stars').textContent = progress.stars;
+updateStorageStatus();
+loadQuestions();
 </script>
 </body>
 </html>
